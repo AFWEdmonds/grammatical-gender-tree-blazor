@@ -1,0 +1,239 @@
+﻿@page "/dict"
+@using System.Text.Json;
+@using System.Text.Json.Serialization;
+@using Blazor.Extensions;
+@using Dictionary.Shared;
+@using Blazor.Extensions.Canvas;
+@using Blazor.Extensions.Canvas.Canvas2D;
+@using System.Net.Http.Json;
+@using System.Linq;
+@using System.Globalization;
+@using System.Threading;
+@inject HttpClient Http
+<div style="background-color: white; position: absolute; width: 400px; border-style: solid; border-width: 2px; border-radius: 6px; margin-left: 10px; margin-top: 10px;">
+    <div class="container">
+        <div class="padding" style="text-align: center">
+            <a class="padding" href="http://afwedmonds.com">Return to afwedmonds.com</a>
+            <div class="padding">
+                <button class="btn btn-secondary" @onclick="(() => hidden = !hidden)">@(hidden ? "Show" : "Hide")</button>
+            </div>
+        </div>
+        <div style="@(hidden ? "display: none" : "")">
+            <hr />
+            <h3>Tree configuration</h3>
+            <div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="startRadio1" @onclick="(() => customEnding = false)" checked="@(customEnding == false)">
+                    <label class="form-check-label" for="startRadio1">Start at root</label>
+                </div> 
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="startRadio2" @onclick="(() => customEnding = true)" checked="@(customEnding == true)">
+                    <label class="form-check-label" for="startRadio2">Start at ending:</label>
+                </div>
+                <input type="text" class="form-control" placeholder="e.g. ung" @bind="RootEnding" disabled="@(customEnding == false)">
+                <div class="padding">
+                    <label class="form-check-label" for="propagationDepth">Maximum node Propagation Depth</label>
+                    <input type="number" class="form-control" id="propagationDepth" placeholder="3" @bind="PropagationDepth">
+                </div>
+                <div class="padding">
+                    <label class="form-check-label" for="cullNodesUnder">Minimum node word count</label>
+                    <input type="number" class="form-control" id="cullNodesUnder" placeholder="0" @bind="cullNodesUnder">
+                </div>
+                <div class="padding" style="text-align: center">
+                    <button class="btn btn-primary" @onclick="Run">Apply Changes (Reload)</button>
+                </div>
+            </div>
+            <hr />
+            <h4>Sort by:</h4>
+            <div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="alphaRadio" @onclick="(() => sortType = SortType.Alphabetical)" checked="@(sortType == SortType.Alphabetical)">
+                    <label class="form-check-label" for="alphaRadio">Alphabetical</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="mascRadio" @onclick="(() => sortType = SortType.Masculine)" checked="@(sortType == SortType.Masculine)">
+                    <label class="form-check-label" for="mascRadio">Masculine %</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="femRadio" @onclick="(() => sortType = SortType.Feminine)" checked="@(sortType == SortType.Feminine)">
+                    <label class="form-check-label" for="femRadio">Feminine %</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="neutRadio" @onclick="(() => sortType = SortType.Neuter)" checked="@(sortType == SortType.Neuter)">
+                    <label class="form-check-label" for="neutRadio">Neuter %</label>
+                </div>
+                <div class="padding" style="text-align: center">
+                    <button class="btn btn-primary" @onclick="TriggerLayout" disabled="@(RootNode is null)">Apply Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<BECanvas Width="10000" Height="@(PropagationDepth * 135+200)" @ref="_canvasReference"></BECanvas>
+
+<style>
+    .padding {
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+</style>
+
+@code {
+    private Canvas2DContext? _context;
+    protected BECanvasComponent? _canvasReference;
+    int canvasWidth = 1000;
+
+    public bool hidden = false;
+    public bool customEnding = false;
+    public string RootEnding = string.Empty;
+    public bool AutoPropagate { get; set; } = false;
+    public int PropagationDepth = 2;
+    public SortType sortType = SortType.Alphabetical;
+    private Node? RootNode { get; set; }
+    private List<DictionaryEntry>? fullDictionary;
+    private bool showWords = true;
+    private int cullNodesUnder = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var Response = await Http.GetAsync("sample-data/42000wordscleaned.json");
+        fullDictionary = JsonSerializer.Deserialize<List<DictionaryEntry>>(Response.Content.ReadAsStream());
+        fullDictionary.Sort();
+    }
+
+    //protected override async Task OnAfterRenderAsync(bool firstRender)
+    //{
+
+    //}
+
+    private void Run()
+    {
+        CultureInfo.CurrentCulture = new CultureInfo("de-DE");
+        InitializeRootNode();
+        TriggerLayout();
+    }
+
+    private void InitializeRootNode()
+    {
+        if (customEnding && RootEnding != string.Empty)
+        {
+            // linQ query on list to return all of the dictionary entries that have this starting ending
+            var dictionaryQuery =
+                from entry in fullDictionary
+                where entry.Word.Length > RootEnding.Length
+                where entry.Word[^RootEnding.Length..] == RootEnding
+                select entry;
+
+            var enam = RootEnding.ToCharArray();
+            Array.Reverse(enam);
+            List<DictionaryEntry> newDictionary = dictionaryQuery.ToList();
+            newDictionary.Sort();
+            RootNode = new(new string(enam), newDictionary, null);
+            RootNode.Propagate(PropagationDepth + RootEnding.Length, cullNodesUnder);
+        }
+        else
+        {
+            RootNode = new("", fullDictionary, null);
+            RootNode.Propagate(PropagationDepth + RootEnding.Length, cullNodesUnder);
+        }
+    }
+
+    public async void TriggerLayout()
+    {
+        RootNode.CalcLayout(sortType);
+        this._context = await this._canvasReference.CreateCanvas2DAsync();
+        await this._context.ClearRectAsync(0, 0,10000, (PropagationDepth * 135 + 200));
+        RenderNodes(RootNode);
+    }
+
+    private async Task RenderNodes(Node node)
+    {
+        //double nodeDegrees = 360 / (HierachyBuilder.RootNode.Children.Count);
+        await RenderNode(node);
+        foreach (Node childNode in node.Children)
+        {
+            //var x = Convert.ToInt32(Math.Cos((nodeDegrees * i) * (Math.PI) / 180) * 350);
+            //var y = Convert.ToInt32(Math.Sin((nodeDegrees * i) * (Math.PI) / 180) * 350);
+            //await RenderNode(HierachyBuilder.RootNode.Children[i]);
+            await RenderNodes(childNode);
+        }
+    }
+
+    private async Task RenderNode(Node node)
+    {
+        int xBias = 500;
+        int yBias = 100;
+        int lineheight = 30;
+        int magnification = 135;
+        int backgroundRadius = 50;
+        string ColourString = "rgb(255, 255, 255)";
+        try
+        {
+            ColourString = "rgb(" + Convert.ToInt32(node.GenderRatios[1] * 255).ToString() + ", " + Convert.ToInt32(node.GenderRatios[2] * 255).ToString()
+            + ", " + Convert.ToInt32(node.GenderRatios[0] * 255).ToString() + ")";
+        }
+        catch
+        {
+        }
+        foreach (Node child in node.Children) // Draw line to parent
+        {
+            //await this._context.SetGlobalCompositeOperationAsync("destination-over");
+            await this._context.BeginPathAsync();
+            await this._context.SetLineWidthAsync(3);
+            await this._context.SetStrokeStyleAsync("gainsboro");
+            await this._context.MoveToAsync(child.X * magnification + xBias, child.Y * magnification + yBias);
+            await this._context.LineToAsync(node.X * magnification + xBias, node.Y * magnification + yBias);
+            await this._context.StrokeAsync();
+        }
+        // Draw circle for node background
+        await this._context.BeginPathAsync();
+        await this._context.ArcAsync(node.X * magnification + xBias, node.Y * magnification + yBias, backgroundRadius, 0, 2 * Math.PI);
+        await this._context.SetFillStyleAsync("ghostwhite");
+        await this._context.FillAsync();
+
+        // Draw node text
+        await this._context.SetFillStyleAsync(ColourString);;
+        await this._context.SetFontAsync("24px Century Gothic");
+        await this._context.FillTextAsync(node.ToString().Split("/n")[0], (node.X * magnification) + xBias - 30, (node.Y * magnification + (0 * lineheight)) - 10 + yBias);
+        await this._context.SetFillStyleAsync("rgb(10,10,10)");
+        await this._context.SetFontAsync("10px Century Gothic");
+        await this._context.FillTextAsync(node.ToString().Split("/n")[1], (node.X * magnification) + xBias - 30, (node.Y * magnification + (1 * lineheight)) - 10 + yBias);
+        await this._context.FillTextAsync(node.CountGenders[0] + " " + node.CountGenders[1] + " " + node.CountGenders[2], (node.X * magnification) + xBias - 30, (node.Y * magnification + (2 * lineheight)) - 10 + yBias);
+
+        //int wordIndex = 2;
+        //foreach (DictionaryEntry word in node.DictionaryEntries)
+        //{
+        //    await this._context.FillTextAsync(word.Word, (node.X * magnification) + xBias - 30, (node.Y * magnification + (wordIndex * lineheight)) - 10 + yBias);
+        //    wordIndex += 1;
+        //}
+    }
+
+    //public Node TestScenario()
+    //{
+    //    RootNode = new("W", new List<DictionaryEntry>(), null);
+    //    RootNode.Children.Add(new("N", new List<DictionaryEntry>(), RootNode));
+    //    RootNode.Children[0].Children.Add(new("F", new List<DictionaryEntry>(), RootNode.Children[0]));
+    //    RootNode.Children[0].Children[0].Children.Add(new("B", new List<DictionaryEntry>(), RootNode.Children[0].Children[0]));
+    //    RootNode.Children[0].Children[0].Children[0].Children.Add(new("A", new List<DictionaryEntry>(), RootNode.Children[0].Children[0].Children[0]));
+    //    RootNode.Children[0].Children[0].Children.Add(new("E", new List<DictionaryEntry>(), RootNode.Children[0].Children[0]));
+    //    RootNode.Children[0].Children[0].Children[1].Children.Add(new("C", new List<DictionaryEntry>(), RootNode.Children[0].Children[0].Children[1]));
+    //    RootNode.Children[0].Children[0].Children[1].Children.Add(new("D", new List<DictionaryEntry>(), RootNode.Children[0].Children[0].Children[1]));
+    //    RootNode.Children[0].Children.Add(new("M", new List<DictionaryEntry>(), RootNode.Children[0]));
+    //    RootNode.Children[0].Children[1].Children.Add(new("G", new List<DictionaryEntry>(), RootNode.Children[0].Children[1]));
+    //    RootNode.Children[0].Children[1].Children.Add(new("L", new List<DictionaryEntry>(), RootNode.Children[0].Children[1]));
+    //    RootNode.Children[0].Children[1].Children[1].Children.Add(new("I", new List<DictionaryEntry>(), RootNode.Children[0].Children[1].Children[1]));
+    //    RootNode.Children[0].Children[1].Children[1].Children[0].Children.Add(new("H", new List<DictionaryEntry>(), RootNode.Children[0].Children[1].Children[1].Children[0]));
+    //    RootNode.Children[0].Children[1].Children[1].Children.Add(new("J", new List<DictionaryEntry>(), RootNode.Children[0].Children[1].Children[1]));
+    //    RootNode.Children[0].Children[1].Children[1].Children.Add(new("K", new List<DictionaryEntry>(), RootNode.Children[0].Children[1].Children[1]));
+    //    RootNode.Children.Add(new("Q", new List<DictionaryEntry>(), RootNode));
+    //    RootNode.Children[1].Children.Add(new("P", new List<DictionaryEntry>(), RootNode.Children[1]));
+    //    RootNode.Children[1].Children[0].Children.Add(new("O", new List<DictionaryEntry>(), RootNode.Children[1].Children[0]));
+    //    RootNode.Children.Add(new("V", new List<DictionaryEntry>(), RootNode));
+    //    RootNode.Children[2].Children.Add(new("U", new List<DictionaryEntry>(), RootNode.Children[2]));
+    //    RootNode.Children[2].Children[0].Children.Add(new("T", new List<DictionaryEntry>(), RootNode.Children[2].Children[0]));
+    //    RootNode.Children[2].Children[0].Children[0].Children.Add(new("R", new List<DictionaryEntry>(), RootNode.Children[2].Children[0].Children[0]));
+    //    RootNode.Children[2].Children[0].Children[0].Children.Add(new("S", new List<DictionaryEntry>(), RootNode.Children[2].Children[0].Children[0]));
+    //    return RootNode;
+    //}
+}

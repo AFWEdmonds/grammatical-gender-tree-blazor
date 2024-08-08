@@ -1,0 +1,2734 @@
+[
+  {
+    "Gender": "der",
+    "Word": "Ärger"
+  },
+  {
+    "Gender": "der",
+    "Word": "Abend"
+  },
+  {
+    "Gender": "der",
+    "Word": "Abflug"
+  },
+  {
+    "Gender": "der",
+    "Word": "Absender"
+  },
+  {
+    "Gender": "der",
+    "Word": "Alkohol"
+  },
+  {
+    "Gender": "der",
+    "Word": "Anfang"
+  },
+  {
+    "Gender": "der",
+    "Word": "Angestellte"
+  },
+  {
+    "Gender": "der",
+    "Word": "Anruf"
+  },
+  {
+    "Gender": "der",
+    "Word": "Anrufbeantworter"
+  },
+  {
+    "Gender": "der",
+    "Word": "Anschluss"
+  },
+  {
+    "Gender": "der",
+    "Word": "Anzug"
+  },
+  {
+    "Gender": "der",
+    "Word": "Apfel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Appetit"
+  },
+  {
+    "Gender": "der",
+    "Word": "April"
+  },
+  {
+    "Gender": "der",
+    "Word": "Arbeitsplatz"
+  },
+  {
+    "Gender": "der",
+    "Word": "Arm"
+  },
+  {
+    "Gender": "der",
+    "Word": "Arzt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Aufenthalt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Aufzug"
+  },
+  {
+    "Gender": "der",
+    "Word": "August"
+  },
+  {
+    "Gender": "der",
+    "Word": "Ausflug"
+  },
+  {
+    "Gender": "der",
+    "Word": "Ausgang"
+  },
+  {
+    "Gender": "der",
+    "Word": "Ausländer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Ausweis"
+  },
+  {
+    "Gender": "der",
+    "Word": "Automat"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bahnhof"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bahnsteig"
+  },
+  {
+    "Gender": "der",
+    "Word": "Balkon"
+  },
+  {
+    "Gender": "der",
+    "Word": "Baum"
+  },
+  {
+    "Gender": "der",
+    "Word": "Beamte"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bekannte"
+  },
+  {
+    "Gender": "der",
+    "Word": "Berg"
+  },
+  {
+    "Gender": "der",
+    "Word": "Beruf"
+  },
+  {
+    "Gender": "der",
+    "Word": "Besuch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Betrag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bildschirm"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bleistift"
+  },
+  {
+    "Gender": "der",
+    "Word": "Blick"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bogen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Brief"
+  },
+  {
+    "Gender": "der",
+    "Word": "Briefkasten"
+  },
+  {
+    "Gender": "der",
+    "Word": "Briefumschlag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bruder"
+  },
+  {
+    "Gender": "der",
+    "Word": "Buchstabe"
+  },
+  {
+    "Gender": "der",
+    "Word": "Bus"
+  },
+  {
+    "Gender": "der",
+    "Word": "Chef"
+  },
+  {
+    "Gender": "der",
+    "Word": "Computer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Dank"
+  },
+  {
+    "Gender": "der",
+    "Word": "Deutsche"
+  },
+  {
+    "Gender": "der",
+    "Word": "Dezember"
+  },
+  {
+    "Gender": "der",
+    "Word": "Dienstag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Doktor"
+  },
+  {
+    "Gender": "der",
+    "Word": "Dom"
+  },
+  {
+    "Gender": "der",
+    "Word": "Donnerstag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Drucker"
+  },
+  {
+    "Gender": "der",
+    "Word": "Durst"
+  },
+  {
+    "Gender": "der",
+    "Word": "Ehemann"
+  },
+  {
+    "Gender": "der",
+    "Word": "Eingang"
+  },
+  {
+    "Gender": "der",
+    "Word": "Eintritt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Einwohner"
+  },
+  {
+    "Gender": "der",
+    "Word": "Empfänger"
+  },
+  {
+    "Gender": "der",
+    "Word": "Empfang"
+  },
+  {
+    "Gender": "der",
+    "Word": "Enkel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Erwachsene"
+  },
+  {
+    "Gender": "der",
+    "Word": "Export"
+  },
+  {
+    "Gender": "der",
+    "Word": "Führerschein"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fahrer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fahrplan"
+  },
+  {
+    "Gender": "der",
+    "Word": "Familienname"
+  },
+  {
+    "Gender": "der",
+    "Word": "Familienstand"
+  },
+  {
+    "Gender": "der",
+    "Word": "Februar"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fehler"
+  },
+  {
+    "Gender": "der",
+    "Word": "Film"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fisch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Flughafen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Flur"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fluss"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fotoapparat"
+  },
+  {
+    "Gender": "der",
+    "Word": "Frühling"
+  },
+  {
+    "Gender": "der",
+    "Word": "Freitag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Freund"
+  },
+  {
+    "Gender": "der",
+    "Word": "Friseur"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fuss"
+  },
+  {
+    "Gender": "der",
+    "Word": "Fussball"
+  },
+  {
+    "Gender": "der",
+    "Word": "Garten"
+  },
+  {
+    "Gender": "der",
+    "Word": "Gast"
+  },
+  {
+    "Gender": "der",
+    "Word": "Geburtsort"
+  },
+  {
+    "Gender": "der",
+    "Word": "Geburtstag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Glückwunsch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Grossvater"
+  },
+  {
+    "Gender": "der",
+    "Word": "Gruss"
+  },
+  {
+    "Gender": "der",
+    "Word": "Hals"
+  },
+  {
+    "Gender": "der",
+    "Word": "Haushalt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Hausmann"
+  },
+  {
+    "Gender": "der",
+    "Word": "Herbst"
+  },
+  {
+    "Gender": "der",
+    "Word": "Herd"
+  },
+  {
+    "Gender": "der",
+    "Word": "Herr"
+  },
+  {
+    "Gender": "der",
+    "Word": "Hund"
+  },
+  {
+    "Gender": "der",
+    "Word": "Hunger"
+  },
+  {
+    "Gender": "der",
+    "Word": "Import"
+  },
+  {
+    "Gender": "der",
+    "Word": "Inhalt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Januar"
+  },
+  {
+    "Gender": "der",
+    "Word": "Job"
+  },
+  {
+    "Gender": "der",
+    "Word": "Jugendliche"
+  },
+  {
+    "Gender": "der",
+    "Word": "Juli"
+  },
+  {
+    "Gender": "der",
+    "Word": "Junge"
+  },
+  {
+    "Gender": "der",
+    "Word": "Juni"
+  },
+  {
+    "Gender": "der",
+    "Word": "Käse"
+  },
+  {
+    "Gender": "der",
+    "Word": "Körper"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kühlschrank"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kaffee"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kalender"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kassettenrecorder"
+  },
+  {
+    "Gender": "der",
+    "Word": "Keller"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kellner"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kindergarten"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kinderwagen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kiosk"
+  },
+  {
+    "Gender": "der",
+    "Word": "Koffer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kollege"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kontakt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kopf"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kredit"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kreis"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kuchen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kugelschreiber"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kunde"
+  },
+  {
+    "Gender": "der",
+    "Word": "Kurs"
+  },
+  {
+    "Gender": "der",
+    "Word": "Löffel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Laden"
+  },
+  {
+    "Gender": "der",
+    "Word": "Lehrer"
+  },
+  {
+    "Gender": "der",
+    "Word": "LKW"
+  },
+  {
+    "Gender": "der",
+    "Word": "Loch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Lohn"
+  },
+  {
+    "Gender": "der",
+    "Word": "März"
+  },
+  {
+    "Gender": "der",
+    "Word": "Müll"
+  },
+  {
+    "Gender": "der",
+    "Word": "Magen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mai"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mann"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mantel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Markt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mechaniker"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mensch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Messer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mittag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mittwoch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Moment"
+  },
+  {
+    "Gender": "der",
+    "Word": "Monat"
+  },
+  {
+    "Gender": "der",
+    "Word": "Montag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Morgen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Motor"
+  },
+  {
+    "Gender": "der",
+    "Word": "Mund"
+  },
+  {
+    "Gender": "der",
+    "Word": "Nachbar"
+  },
+  {
+    "Gender": "der",
+    "Word": "Nachmittag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Name"
+  },
+  {
+    "Gender": "der",
+    "Word": "Nebel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Norden"
+  },
+  {
+    "Gender": "der",
+    "Word": "Notarzt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Notfall"
+  },
+  {
+    "Gender": "der",
+    "Word": "November"
+  },
+  {
+    "Gender": "der",
+    "Word": "Ober"
+  },
+  {
+    "Gender": "der",
+    "Word": "Oktober"
+  },
+  {
+    "Gender": "der",
+    "Word": "Opa"
+  },
+  {
+    "Gender": "der",
+    "Word": "Ort"
+  },
+  {
+    "Gender": "der",
+    "Word": "Osten"
+  },
+  {
+    "Gender": "der",
+    "Word": "Park"
+  },
+  {
+    "Gender": "der",
+    "Word": "Partner"
+  },
+  {
+    "Gender": "der",
+    "Word": "Pass"
+  },
+  {
+    "Gender": "der",
+    "Word": "Pkw"
+  },
+  {
+    "Gender": "der",
+    "Word": "Plan"
+  },
+  {
+    "Gender": "der",
+    "Word": "Platz"
+  },
+  {
+    "Gender": "der",
+    "Word": "Preis"
+  },
+  {
+    "Gender": "der",
+    "Word": "Prospekt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Pullover"
+  },
+  {
+    "Gender": "der",
+    "Word": "Rücken"
+  },
+  {
+    "Gender": "der",
+    "Word": "Rabatt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Raucher"
+  },
+  {
+    "Gender": "der",
+    "Word": "Raum"
+  },
+  {
+    "Gender": "der",
+    "Word": "Regen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Reifen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Reis"
+  },
+  {
+    "Gender": "der",
+    "Word": "Reiseführer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Rock"
+  },
+  {
+    "Gender": "der",
+    "Word": "Rose"
+  },
+  {
+    "Gender": "der",
+    "Word": "Rundgang"
+  },
+  {
+    "Gender": "der",
+    "Word": "Süden"
+  },
+  {
+    "Gender": "der",
+    "Word": "Saft"
+  },
+  {
+    "Gender": "der",
+    "Word": "Salat"
+  },
+  {
+    "Gender": "der",
+    "Word": "Satz"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schüler"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schalter"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schild"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schinken"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schirm"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schlüssel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schluss"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schnee"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schnupfen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schrank"
+  },
+  {
+    "Gender": "der",
+    "Word": "Schuh"
+  },
+  {
+    "Gender": "der",
+    "Word": "See"
+  },
+  {
+    "Gender": "der",
+    "Word": "September"
+  },
+  {
+    "Gender": "der",
+    "Word": "Service"
+  },
+  {
+    "Gender": "der",
+    "Word": "Sessel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Sohn"
+  },
+  {
+    "Gender": "der",
+    "Word": "Sommer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Sonntag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Spass"
+  },
+  {
+    "Gender": "der",
+    "Word": "Spaziergang"
+  },
+  {
+    "Gender": "der",
+    "Word": "Spielplatz"
+  },
+  {
+    "Gender": "der",
+    "Word": "Stempel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Stock"
+  },
+  {
+    "Gender": "der",
+    "Word": "Stoff"
+  },
+  {
+    "Gender": "der",
+    "Word": "Strand"
+  },
+  {
+    "Gender": "der",
+    "Word": "Strom"
+  },
+  {
+    "Gender": "der",
+    "Word": "Student"
+  },
+  {
+    "Gender": "der",
+    "Word": "Stuhl"
+  },
+  {
+    "Gender": "der",
+    "Word": "Supermarkt"
+  },
+  {
+    "Gender": "der",
+    "Word": "Tag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Teil"
+  },
+  {
+    "Gender": "der",
+    "Word": "Teller"
+  },
+  {
+    "Gender": "der",
+    "Word": "Teppich"
+  },
+  {
+    "Gender": "der",
+    "Word": "Termin"
+  },
+  {
+    "Gender": "der",
+    "Word": "Test"
+  },
+  {
+    "Gender": "der",
+    "Word": "Text"
+  },
+  {
+    "Gender": "der",
+    "Word": "Tipp"
+  },
+  {
+    "Gender": "der",
+    "Word": "Tisch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Topf"
+  },
+  {
+    "Gender": "der",
+    "Word": "Tourist"
+  },
+  {
+    "Gender": "der",
+    "Word": "Turm"
+  },
+  {
+    "Gender": "der",
+    "Word": "Tyr"
+  },
+  {
+    "Gender": "der",
+    "Word": "Unfall"
+  },
+  {
+    "Gender": "der",
+    "Word": "Unterricht"
+  },
+  {
+    "Gender": "der",
+    "Word": "Unterschied"
+  },
+  {
+    "Gender": "der",
+    "Word": "Urlaub"
+  },
+  {
+    "Gender": "der",
+    "Word": "Vater"
+  },
+  {
+    "Gender": "der",
+    "Word": "Verein"
+  },
+  {
+    "Gender": "der",
+    "Word": "Verkäufer"
+  },
+  {
+    "Gender": "der",
+    "Word": "Verkehr"
+  },
+  {
+    "Gender": "der",
+    "Word": "Vermieter"
+  },
+  {
+    "Gender": "der",
+    "Word": "Vertrag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Vogel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Vormittag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Vorname"
+  },
+  {
+    "Gender": "der",
+    "Word": "Wagen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Wald"
+  },
+  {
+    "Gender": "der",
+    "Word": "Weg"
+  },
+  {
+    "Gender": "der",
+    "Word": "Wein"
+  },
+  {
+    "Gender": "der",
+    "Word": "Westen"
+  },
+  {
+    "Gender": "der",
+    "Word": "Wetter"
+  },
+  {
+    "Gender": "der",
+    "Word": "Wind"
+  },
+  {
+    "Gender": "der",
+    "Word": "Winter"
+  },
+  {
+    "Gender": "der",
+    "Word": "Wochentag"
+  },
+  {
+    "Gender": "der",
+    "Word": "Wunsch"
+  },
+  {
+    "Gender": "der",
+    "Word": "Zahn"
+  },
+  {
+    "Gender": "der",
+    "Word": "Zettel"
+  },
+  {
+    "Gender": "der",
+    "Word": "Zoll"
+  },
+  {
+    "Gender": "der",
+    "Word": "Zucker"
+  },
+  {
+    "Gender": "der",
+    "Word": "Zug"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ärztin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Übernachtung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Abfahrt"
+  },
+  {
+    "Gender": "die",
+    "Word": "Adresse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ampel"
+  },
+  {
+    "Gender": "die",
+    "Word": "Angestellte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Angst"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ankunft"
+  },
+  {
+    "Gender": "die",
+    "Word": "Anmeldung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Anrede"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ansage"
+  },
+  {
+    "Gender": "die",
+    "Word": "Antwort"
+  },
+  {
+    "Gender": "die",
+    "Word": "Anzeige"
+  },
+  {
+    "Gender": "die",
+    "Word": "Apotheke"
+  },
+  {
+    "Gender": "die",
+    "Word": "Arbeit"
+  },
+  {
+    "Gender": "die",
+    "Word": "Aufgabe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Auge"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ausbildung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Auskunft"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ausländerin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Aussage"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ausstellung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Autobahn"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bäckerei"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bahn"
+  },
+  {
+    "Gender": "die",
+    "Word": "Banane"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bank"
+  },
+  {
+    "Gender": "die",
+    "Word": "Batterie"
+  },
+  {
+    "Gender": "die",
+    "Word": "Beamte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Beamtin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bekannte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Beratung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Berufsschule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bewerbung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Birne"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bitte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Blume"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bluse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Bohne"
+  },
+  {
+    "Gender": "die",
+    "Word": "Brücke"
+  },
+  {
+    "Gender": "die",
+    "Word": "Briefmarke"
+  },
+  {
+    "Gender": "die",
+    "Word": "Brieftasche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Brille"
+  },
+  {
+    "Gender": "die",
+    "Word": "Butter"
+  },
+  {
+    "Gender": "die",
+    "Word": "CD"
+  },
+  {
+    "Gender": "die",
+    "Word": "CD-ROM"
+  },
+  {
+    "Gender": "die",
+    "Word": "Creme"
+  },
+  {
+    "Gender": "die",
+    "Word": "Dame"
+  },
+  {
+    "Gender": "die",
+    "Word": "Dauer"
+  },
+  {
+    "Gender": "die",
+    "Word": "Deutsche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Disco"
+  },
+  {
+    "Gender": "die",
+    "Word": "Durchsage"
+  },
+  {
+    "Gender": "die",
+    "Word": "Dusche"
+  },
+  {
+    "Gender": "die",
+    "Word": "E-Mail"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ecke"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ehefrau"
+  },
+  {
+    "Gender": "die",
+    "Word": "Einführung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Einladung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Eltern"
+  },
+  {
+    "Gender": "die",
+    "Word": "Entschuldigung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Erfahrung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Erlaubnis"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ermässigung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Erwachsene"
+  },
+  {
+    "Gender": "die",
+    "Word": "Fähre"
+  },
+  {
+    "Gender": "die",
+    "Word": "Führung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Fabrik"
+  },
+  {
+    "Gender": "die",
+    "Word": "Fahrkarte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Familie"
+  },
+  {
+    "Gender": "die",
+    "Word": "Farbe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ferien"
+  },
+  {
+    "Gender": "die",
+    "Word": "Feuerwehr"
+  },
+  {
+    "Gender": "die",
+    "Word": "Firma"
+  },
+  {
+    "Gender": "die",
+    "Word": "Flasche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Flur"
+  },
+  {
+    "Gender": "die",
+    "Word": "Frage"
+  },
+  {
+    "Gender": "die",
+    "Word": "Frau"
+  },
+  {
+    "Gender": "die",
+    "Word": "Freizeit"
+  },
+  {
+    "Gender": "die",
+    "Word": "Freundin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Frist"
+  },
+  {
+    "Gender": "die",
+    "Word": "Gabel"
+  },
+  {
+    "Gender": "die",
+    "Word": "Garage"
+  },
+  {
+    "Gender": "die",
+    "Word": "Gebühr"
+  },
+  {
+    "Gender": "die",
+    "Word": "Geldbörse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Gesamtschule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Geschwister"
+  },
+  {
+    "Gender": "die",
+    "Word": "Gesundheit"
+  },
+  {
+    "Gender": "die",
+    "Word": "Grösse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Grippe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Grosseltern"
+  },
+  {
+    "Gender": "die",
+    "Word": "Grossmutter"
+  },
+  {
+    "Gender": "die",
+    "Word": "Grundschule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Gruppe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Halbpension"
+  },
+  {
+    "Gender": "die",
+    "Word": "Halle"
+  },
+  {
+    "Gender": "die",
+    "Word": "Haltestelle"
+  },
+  {
+    "Gender": "die",
+    "Word": "Hand"
+  },
+  {
+    "Gender": "die",
+    "Word": "Hausaufgabe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Hausfrau"
+  },
+  {
+    "Gender": "die",
+    "Word": "Heimat"
+  },
+  {
+    "Gender": "die",
+    "Word": "Heizung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Hilfe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Hose"
+  },
+  {
+    "Gender": "die",
+    "Word": "Idee"
+  },
+  {
+    "Gender": "die",
+    "Word": "Industrie"
+  },
+  {
+    "Gender": "die",
+    "Word": "Information"
+  },
+  {
+    "Gender": "die",
+    "Word": "Jacke"
+  },
+  {
+    "Gender": "die",
+    "Word": "Jugendherberge"
+  },
+  {
+    "Gender": "die",
+    "Word": "Jugendliche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Küche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kündigung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kamera"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kanne"
+  },
+  {
+    "Gender": "die",
+    "Word": "Karte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kartoffel"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kasse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kassette"
+  },
+  {
+    "Gender": "die",
+    "Word": "Katze"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kenntnisse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kette"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kirche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Klasse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kleidung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kneipe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kollegin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kontrolle"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kosmetik"
+  },
+  {
+    "Gender": "die",
+    "Word": "Krankenkasse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Krankheit"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kreditkarte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kreuzung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kunde"
+  },
+  {
+    "Gender": "die",
+    "Word": "Kundin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Lösung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Lampe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Landschaft"
+  },
+  {
+    "Gender": "die",
+    "Word": "Lebensmittel"
+  },
+  {
+    "Gender": "die",
+    "Word": "Lehre"
+  },
+  {
+    "Gender": "die",
+    "Word": "Lehrerin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Leute"
+  },
+  {
+    "Gender": "die",
+    "Word": "Lohn"
+  },
+  {
+    "Gender": "die",
+    "Word": "Luft"
+  },
+  {
+    "Gender": "die",
+    "Word": "Lust"
+  },
+  {
+    "Gender": "die",
+    "Word": "Möbel"
+  },
+  {
+    "Gender": "die",
+    "Word": "Mülltonne"
+  },
+  {
+    "Gender": "die",
+    "Word": "Maschine"
+  },
+  {
+    "Gender": "die",
+    "Word": "Mehrwertsteuer"
+  },
+  {
+    "Gender": "die",
+    "Word": "Meinung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Menge"
+  },
+  {
+    "Gender": "die",
+    "Word": "Miete"
+  },
+  {
+    "Gender": "die",
+    "Word": "Milch"
+  },
+  {
+    "Gender": "die",
+    "Word": "Minute"
+  },
+  {
+    "Gender": "die",
+    "Word": "Mitte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Mitteilung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Mittelschule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Mode"
+  },
+  {
+    "Gender": "die",
+    "Word": "Musik"
+  },
+  {
+    "Gender": "die",
+    "Word": "Mutter"
+  },
+  {
+    "Gender": "die",
+    "Word": "Nähe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Nachbarin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Nacht"
+  },
+  {
+    "Gender": "die",
+    "Word": "Natur"
+  },
+  {
+    "Gender": "die",
+    "Word": "Note"
+  },
+  {
+    "Gender": "die",
+    "Word": "Notiz"
+  },
+  {
+    "Gender": "die",
+    "Word": "Nudel"
+  },
+  {
+    "Gender": "die",
+    "Word": "Nummer"
+  },
+  {
+    "Gender": "die",
+    "Word": "Oma"
+  },
+  {
+    "Gender": "die",
+    "Word": "Operation"
+  },
+  {
+    "Gender": "die",
+    "Word": "Orange"
+  },
+  {
+    "Gender": "die",
+    "Word": "Ordnung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Panne"
+  },
+  {
+    "Gender": "die",
+    "Word": "Partei"
+  },
+  {
+    "Gender": "die",
+    "Word": "Partnerin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Party"
+  },
+  {
+    "Gender": "die",
+    "Word": "Pause"
+  },
+  {
+    "Gender": "die",
+    "Word": "Pension"
+  },
+  {
+    "Gender": "die",
+    "Word": "Plastik"
+  },
+  {
+    "Gender": "die",
+    "Word": "Polizei"
+  },
+  {
+    "Gender": "die",
+    "Word": "Portion"
+  },
+  {
+    "Gender": "die",
+    "Word": "Post"
+  },
+  {
+    "Gender": "die",
+    "Word": "Postleitzahl"
+  },
+  {
+    "Gender": "die",
+    "Word": "Prüfung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Praxis"
+  },
+  {
+    "Gender": "die",
+    "Word": "Qualität"
+  },
+  {
+    "Gender": "die",
+    "Word": "Quittung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Raucherin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Realschule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Rechnung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Reinigung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Reise"
+  },
+  {
+    "Gender": "die",
+    "Word": "Reparatur"
+  },
+  {
+    "Gender": "die",
+    "Word": "Rezeption"
+  },
+  {
+    "Gender": "die",
+    "Word": "Rose"
+  },
+  {
+    "Gender": "die",
+    "Word": "Rose"
+  },
+  {
+    "Gender": "die",
+    "Word": "S-Bahn"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sache"
+  },
+  {
+    "Gender": "die",
+    "Word": "Schülerin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Scheckkarte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Schokolade"
+  },
+  {
+    "Gender": "die",
+    "Word": "Schule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Schwester"
+  },
+  {
+    "Gender": "die",
+    "Word": "See"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sehenswürdigkeit"
+  },
+  {
+    "Gender": "die",
+    "Word": "Seife"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sekretärin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sekunde"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sendung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sonne"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sorge"
+  },
+  {
+    "Gender": "die",
+    "Word": "Spülmaschine"
+  },
+  {
+    "Gender": "die",
+    "Word": "Speisekarte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sprache"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sprachschule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Sprechstunde"
+  },
+  {
+    "Gender": "die",
+    "Word": "Stadt"
+  },
+  {
+    "Gender": "die",
+    "Word": "Steuer"
+  },
+  {
+    "Gender": "die",
+    "Word": "Strasse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Strassenbahn"
+  },
+  {
+    "Gender": "die",
+    "Word": "Studentin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Stunde"
+  },
+  {
+    "Gender": "die",
+    "Word": "Suppe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tür"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tüte"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tankstelle"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tasche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tasse"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tochter"
+  },
+  {
+    "Gender": "die",
+    "Word": "Toilette"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tomate"
+  },
+  {
+    "Gender": "die",
+    "Word": "Treppe"
+  },
+  {
+    "Gender": "die",
+    "Word": "Tyr"
+  },
+  {
+    "Gender": "die",
+    "Word": "U-Bahn"
+  },
+  {
+    "Gender": "die",
+    "Word": "Uhr"
+  },
+  {
+    "Gender": "die",
+    "Word": "Universität"
+  },
+  {
+    "Gender": "die",
+    "Word": "Unterhaltung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Unterkunft"
+  },
+  {
+    "Gender": "die",
+    "Word": "Unterschrift"
+  },
+  {
+    "Gender": "die",
+    "Word": "Untersuchung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Verbindung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Verkäuferin"
+  },
+  {
+    "Gender": "die",
+    "Word": "Versicherung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Verspätung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Volksschule"
+  },
+  {
+    "Gender": "die",
+    "Word": "Vorsicht"
+  },
+  {
+    "Gender": "die",
+    "Word": "Vorwahl"
+  },
+  {
+    "Gender": "die",
+    "Word": "Wäsche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Welt"
+  },
+  {
+    "Gender": "die",
+    "Word": "Werkstatt"
+  },
+  {
+    "Gender": "die",
+    "Word": "Wirtschaft"
+  },
+  {
+    "Gender": "die",
+    "Word": "Woche"
+  },
+  {
+    "Gender": "die",
+    "Word": "Wohnung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Wolke"
+  },
+  {
+    "Gender": "die",
+    "Word": "Wurst"
+  },
+  {
+    "Gender": "die",
+    "Word": "Zahl"
+  },
+  {
+    "Gender": "die",
+    "Word": "Zeit"
+  },
+  {
+    "Gender": "die",
+    "Word": "Zeitschrift"
+  },
+  {
+    "Gender": "die",
+    "Word": "Zeitung"
+  },
+  {
+    "Gender": "die",
+    "Word": "Zigarette"
+  },
+  {
+    "Gender": "die",
+    "Word": "Zitrone"
+  },
+  {
+    "Gender": "das",
+    "Word": "Alter"
+  },
+  {
+    "Gender": "das",
+    "Word": "Angebot"
+  },
+  {
+    "Gender": "das",
+    "Word": "Appartement"
+  },
+  {
+    "Gender": "das",
+    "Word": "Auge"
+  },
+  {
+    "Gender": "das",
+    "Word": "Ausland"
+  },
+  {
+    "Gender": "das",
+    "Word": "Auto"
+  },
+  {
+    "Gender": "das",
+    "Word": "Büro"
+  },
+  {
+    "Gender": "das",
+    "Word": "Baby"
+  },
+  {
+    "Gender": "das",
+    "Word": "Bad"
+  },
+  {
+    "Gender": "das",
+    "Word": "Bein"
+  },
+  {
+    "Gender": "das",
+    "Word": "Beispiel"
+  },
+  {
+    "Gender": "das",
+    "Word": "Benzin"
+  },
+  {
+    "Gender": "das",
+    "Word": "Bett"
+  },
+  {
+    "Gender": "das",
+    "Word": "Bier"
+  },
+  {
+    "Gender": "das",
+    "Word": "Bild"
+  },
+  {
+    "Gender": "das",
+    "Word": "Blatt"
+  },
+  {
+    "Gender": "das",
+    "Word": "Blut"
+  },
+  {
+    "Gender": "das",
+    "Word": "Brötchen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Brot"
+  },
+  {
+    "Gender": "das",
+    "Word": "Buch"
+  },
+  {
+    "Gender": "das",
+    "Word": "Cafe"
+  },
+  {
+    "Gender": "das",
+    "Word": "Dach"
+  },
+  {
+    "Gender": "das",
+    "Word": "Datum"
+  },
+  {
+    "Gender": "das",
+    "Word": "Ding"
+  },
+  {
+    "Gender": "das",
+    "Word": "Doppelzimmer"
+  },
+  {
+    "Gender": "das",
+    "Word": "Dorf"
+  },
+  {
+    "Gender": "das",
+    "Word": "Ei"
+  },
+  {
+    "Gender": "das",
+    "Word": "Einzelzimmer"
+  },
+  {
+    "Gender": "das",
+    "Word": "Eis"
+  },
+  {
+    "Gender": "das",
+    "Word": "Ende"
+  },
+  {
+    "Gender": "das",
+    "Word": "Erdgeschoss"
+  },
+  {
+    "Gender": "das",
+    "Word": "Ergebnis"
+  },
+  {
+    "Gender": "das",
+    "Word": "Essen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fahrrad"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fax"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fenster"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fernsehgerät"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fest"
+  },
+  {
+    "Gender": "das",
+    "Word": "Feuer"
+  },
+  {
+    "Gender": "das",
+    "Word": "Feuerzeug"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fieber"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fleisch"
+  },
+  {
+    "Gender": "das",
+    "Word": "Flugzeug"
+  },
+  {
+    "Gender": "das",
+    "Word": "Formular"
+  },
+  {
+    "Gender": "das",
+    "Word": "Foto"
+  },
+  {
+    "Gender": "das",
+    "Word": "Frühjahr"
+  },
+  {
+    "Gender": "das",
+    "Word": "Frühstück"
+  },
+  {
+    "Gender": "das",
+    "Word": "Fundbüro"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gas"
+  },
+  {
+    "Gender": "das",
+    "Word": "Geburtsjahr"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gegenteil"
+  },
+  {
+    "Gender": "das",
+    "Word": "Geld"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gemüse"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gepäck"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gericht"
+  },
+  {
+    "Gender": "das",
+    "Word": "Geschäft"
+  },
+  {
+    "Gender": "das",
+    "Word": "Geschenk"
+  },
+  {
+    "Gender": "das",
+    "Word": "Geschirr"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gesicht"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gespräch"
+  },
+  {
+    "Gender": "das",
+    "Word": "Getränk"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gewicht"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gewitter"
+  },
+  {
+    "Gender": "das",
+    "Word": "Glück"
+  },
+  {
+    "Gender": "das",
+    "Word": "Glas"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gleis"
+  },
+  {
+    "Gender": "das",
+    "Word": "Guthaben"
+  },
+  {
+    "Gender": "das",
+    "Word": "Gymnasium"
+  },
+  {
+    "Gender": "das",
+    "Word": "Hähnchen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Haar"
+  },
+  {
+    "Gender": "das",
+    "Word": "Handtuch"
+  },
+  {
+    "Gender": "das",
+    "Word": "Handy"
+  },
+  {
+    "Gender": "das",
+    "Word": "Haus"
+  },
+  {
+    "Gender": "das",
+    "Word": "Hemd"
+  },
+  {
+    "Gender": "das",
+    "Word": "Herz"
+  },
+  {
+    "Gender": "das",
+    "Word": "Hobby"
+  },
+  {
+    "Gender": "das",
+    "Word": "Holz"
+  },
+  {
+    "Gender": "das",
+    "Word": "Internet"
+  },
+  {
+    "Gender": "das",
+    "Word": "Jahr"
+  },
+  {
+    "Gender": "das",
+    "Word": "Junge"
+  },
+  {
+    "Gender": "das",
+    "Word": "Kennzeichen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Kfz"
+  },
+  {
+    "Gender": "das",
+    "Word": "Kind"
+  },
+  {
+    "Gender": "das",
+    "Word": "Kino"
+  },
+  {
+    "Gender": "das",
+    "Word": "Kleid"
+  },
+  {
+    "Gender": "das",
+    "Word": "Konsulat"
+  },
+  {
+    "Gender": "das",
+    "Word": "Konto"
+  },
+  {
+    "Gender": "das",
+    "Word": "Konzert"
+  },
+  {
+    "Gender": "das",
+    "Word": "Laden"
+  },
+  {
+    "Gender": "das",
+    "Word": "Lager"
+  },
+  {
+    "Gender": "das",
+    "Word": "Land"
+  },
+  {
+    "Gender": "das",
+    "Word": "Leben"
+  },
+  {
+    "Gender": "das",
+    "Word": "Lebensmittel"
+  },
+  {
+    "Gender": "das",
+    "Word": "Leid"
+  },
+  {
+    "Gender": "das",
+    "Word": "Licht"
+  },
+  {
+    "Gender": "das",
+    "Word": "Lied"
+  },
+  {
+    "Gender": "das",
+    "Word": "Loch"
+  },
+  {
+    "Gender": "das",
+    "Word": "Lokal"
+  },
+  {
+    "Gender": "das",
+    "Word": "Mädchen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Möbel"
+  },
+  {
+    "Gender": "das",
+    "Word": "Mal"
+  },
+  {
+    "Gender": "das",
+    "Word": "Material"
+  },
+  {
+    "Gender": "das",
+    "Word": "Medikament"
+  },
+  {
+    "Gender": "das",
+    "Word": "Meer"
+  },
+  {
+    "Gender": "das",
+    "Word": "Messer"
+  },
+  {
+    "Gender": "das",
+    "Word": "Metall"
+  },
+  {
+    "Gender": "das",
+    "Word": "Mittel"
+  },
+  {
+    "Gender": "das",
+    "Word": "Moment"
+  },
+  {
+    "Gender": "das",
+    "Word": "Morgen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Museum"
+  },
+  {
+    "Gender": "das",
+    "Word": "Obst"
+  },
+  {
+    "Gender": "das",
+    "Word": "Orange"
+  },
+  {
+    "Gender": "das",
+    "Word": "Öl"
+  },
+  {
+    "Gender": "das",
+    "Word": "Päckchen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Paket"
+  },
+  {
+    "Gender": "das",
+    "Word": "Papier"
+  },
+  {
+    "Gender": "das",
+    "Word": "Parfüm"
+  },
+  {
+    "Gender": "das",
+    "Word": "Plastik"
+  },
+  {
+    "Gender": "das",
+    "Word": "Praktikum"
+  },
+  {
+    "Gender": "das",
+    "Word": "Problem"
+  },
+  {
+    "Gender": "das",
+    "Word": "Programm"
+  },
+  {
+    "Gender": "das",
+    "Word": "Rücken"
+  },
+  {
+    "Gender": "das",
+    "Word": "Radio"
+  },
+  {
+    "Gender": "das",
+    "Word": "Rathaus"
+  },
+  {
+    "Gender": "das",
+    "Word": "Reifen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Reis"
+  },
+  {
+    "Gender": "das",
+    "Word": "Reisebüro"
+  },
+  {
+    "Gender": "das",
+    "Word": "Restaurant"
+  },
+  {
+    "Gender": "das",
+    "Word": "Rezept"
+  },
+  {
+    "Gender": "das",
+    "Word": "Rind"
+  },
+  {
+    "Gender": "das",
+    "Word": "Rose"
+  },
+  {
+    "Gender": "das",
+    "Word": "Salz"
+  },
+  {
+    "Gender": "das",
+    "Word": "Schiff"
+  },
+  {
+    "Gender": "das",
+    "Word": "Schild"
+  },
+  {
+    "Gender": "das",
+    "Word": "Schloss"
+  },
+  {
+    "Gender": "das",
+    "Word": "Schwein"
+  },
+  {
+    "Gender": "das",
+    "Word": "Schwimmbad"
+  },
+  {
+    "Gender": "das",
+    "Word": "Service"
+  },
+  {
+    "Gender": "das",
+    "Word": "Sofa"
+  },
+  {
+    "Gender": "das",
+    "Word": "Sonderangebot"
+  },
+  {
+    "Gender": "das",
+    "Word": "Stück"
+  },
+  {
+    "Gender": "das",
+    "Word": "Standesamt"
+  },
+  {
+    "Gender": "das",
+    "Word": "Steuer"
+  },
+  {
+    "Gender": "das",
+    "Word": "Streichholz"
+  },
+  {
+    "Gender": "das",
+    "Word": "Studium"
+  },
+  {
+    "Gender": "das",
+    "Word": "Taxi"
+  },
+  {
+    "Gender": "das",
+    "Word": "Teil"
+  },
+  {
+    "Gender": "das",
+    "Word": "Telefon"
+  },
+  {
+    "Gender": "das",
+    "Word": "Telefonbuch"
+  },
+  {
+    "Gender": "das",
+    "Word": "Theater"
+  },
+  {
+    "Gender": "das",
+    "Word": "Thema"
+  },
+  {
+    "Gender": "das",
+    "Word": "Ticket"
+  },
+  {
+    "Gender": "das",
+    "Word": "Tier"
+  },
+  {
+    "Gender": "das",
+    "Word": "Trinkgeld"
+  },
+  {
+    "Gender": "das",
+    "Word": "Video"
+  },
+  {
+    "Gender": "das",
+    "Word": "Wasser"
+  },
+  {
+    "Gender": "das",
+    "Word": "Werkzeug"
+  },
+  {
+    "Gender": "das",
+    "Word": "Wetter"
+  },
+  {
+    "Gender": "das",
+    "Word": "Wiederhören"
+  },
+  {
+    "Gender": "das",
+    "Word": "Wiedersehen"
+  },
+  {
+    "Gender": "das",
+    "Word": "Wochenende"
+  },
+  {
+    "Gender": "das",
+    "Word": "Wort"
+  },
+  {
+    "Gender": "das",
+    "Word": "Zentrum"
+  },
+  {
+    "Gender": "das",
+    "Word": "Zeugnis"
+  },
+  {
+    "Gender": "das",
+    "Word": "Zimmer"
+  }
+]
